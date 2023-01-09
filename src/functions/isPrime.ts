@@ -1,4 +1,4 @@
-function isPrime(number) {
+export function isPrime(number) {
   if (number < 2 || (number > 2 && number % 2 === 0)) {
     return false;
   }
@@ -11,5 +11,3 @@ function isPrime(number) {
 
   return true;
 }
-                                        
-export isPrime;
